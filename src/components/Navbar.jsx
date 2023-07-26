@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo1, menu, close } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -44,10 +44,10 @@ const Navbar = () => {
             window.scrollTo(0, 0); // scroll to the top page
           }}
         >
-          {/* <img src={logo} alt="logo" className="w-9 h-9 object-contain" /> */}
+          <img src={logo1} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[20px] font-bold cursor-pointer flex">
-            Lokesh &nbsp;
-            <span className="sm:block hidden">Jindal</span>
+            Lokesh |&nbsp;
+            <span className="sm:block hidden">Software Engineer</span>
           </p>
         </Link>
 

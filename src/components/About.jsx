@@ -44,11 +44,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a software developer having a good experience in JavaScript and
-        frameworks like React, Node.js, and Three.js. I'm a quick learner and
-        always try to create efficient, scalable, and user-friendly solutions
-        that solve real-world problems. Let's work together to bring your ideas
-        to life!
+        Enthusiastic BE Computer Science student with a passion for contributing
+        to organizational success, seeking to develop new skills, gain
+        real-world experience, and demonstrate strong communication, critical
+        thinking, and organizational abilities .| I'm a software developer
+        having a good experience in JavaScript and frameworks like React,
+        Node.js. I'm a quick learner and always try to create efficient,
+        scalable, and user-friendly solutions that solve real-world problems.So,
+        let's work together to bring your ideas to life!
       </motion.p>
 
       {/* to display the cards */}

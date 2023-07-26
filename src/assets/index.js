@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import logo1 from "./logo1.jpg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -30,8 +31,18 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import twitter from "./twitter.png";
+import task_tracker from "./task_tracker.png";
+import tictactoe from "./tictactoe.png";
+import dalle from "./dalle.png";
+import socialmedia from "./socialmedia.png";
+import portfolio from "./portfolio.png";
+import shopping_cart from "./shopping_cart.jpg";
+import programming from "./programming.png";
+
 export {
   logo,
+  logo1,
   backend,
   creator,
   mobile,
@@ -59,4 +70,12 @@ export {
   carrent,
   jobit,
   tripguide,
+  twitter,
+  task_tracker,
+  tictactoe,
+  dalle,
+  socialmedia,
+  portfolio,
+  shopping_cart,
+  programming,
 };

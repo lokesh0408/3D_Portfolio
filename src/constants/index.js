@@ -23,6 +23,14 @@ import {
   jobit,
   tripguide,
   threejs,
+  twitter,
+  task_tracker,
+  tictactoe,
+  dalle,
+  socialmedia,
+  portfolio,
+  shopping_cart,
+  programming,
 } from "../assets";
 
 export const navLinks = [
@@ -198,9 +206,30 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Task Tracker",
+    description:
+      "Building this task tracker was an incredible learning experience. One of the challenges I faced was implementing the task sorting feature based on due dates. I dived deep into sorting algorithms and finally settled on the merge sort algorithm, which significantly improved performance. So, I've created this task tracker using JavaScript which proactively help individuals prioritize and manage their work-load effectively. This Task Tracker helps offload mental clutter by capturing tasks and freeing up mental space for other important thoughts and ideas.",
+    tags: [
+      {
+        name: "html5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css3",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: task_tracker,
+    source_code_link: "https://github.com/lokesh0408/Task-Tracker",
+  },
+  {
     name: "AI Image Generation App",
     description:
-      "Created this stunning Image Generator App with OpenAI DALL-E API using MERN Stack that allows users to get an AI generated image on entering the prompt and download the image.",
+      "Created this stunning Image Generator App with OpenAI DALL-E API using MERN Stack. This App uses Cloudinary which is a cloud-based image storage service to store the images. With this app, users can witness the magic of AI in action. It allows users to generate stunning and unique images, be it abstract art, landscapes, or dreamy portraits. The possibilities are endless, and the results are truly mesmerizing! So, users will be able to get an AI generated image on entering the prompt and download the image as well.",
     tags: [
       {
         name: "react",
@@ -219,13 +248,13 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    // image: carrent,
+    image: dalle,
     source_code_link: "https://github.com/lokesh0408/DALL-E-CLONE",
   },
   {
-    name: " Tic-Tac-Toe",
+    name: "Noughts and Crosses",
     description:
-      "Built this engaging and interactive game for the enjoyment of children using JavaScript. This game is fully animated and kids will be having the great fun while playing with this game.",
+      "Developed this engaging and interactive game using JavaScript. Building Naughts and Crosses had its share of challenges. One key aspect was implementing the win and draw condition logic. I experimented with different algorithms to efficiently check for winning combinations, further enhancing the game's performance and playability. This game helps develop logical thinking, strategic planning, and problem-solving skills. The game has been made into a digital version that allows players to test their skills against computer opponents.",
     tags: [
       {
         name: "html5",
@@ -240,28 +269,117 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    // image: jobit,
+    image: tictactoe,
     source_code_link: "https://github.com/lokesh0408/Tic_Tac_Toe_Game",
+  },
+
+  {
+    name: "youAndme - Social Media App",
+    description:
+      "Engineered a social media app called 'youAndme' using Full-Stack. Step into a realm of trust and security as my full-stack app takes data protection to the next level with JWT authentication. Your privacy is my priority, ensuring that only you have the key to unlock your youAndme world. With JWT authentication, I’ve fortified youAndme against unauthorized access, securing user’s account while utilizing Redux for state management. My full-stack approach ensures a seamless, user-friendly interface that delights user’s senses and captivates his audience.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "expressjs",
+        color: "green-text-gradient",
+      },
+    ],
+    image: socialmedia,
+    source_code_link: "https://github.com/lokesh0408/youAndme_SocialMediaApp",
+  },
+  {
+    name: "Portfolio",
+    description:
+      "Building my portfolio using React, Tailwind CSS, and Three.js was a transformative learning experience. I gained proficiency in React, mastering component-based architecture and state management. With Tailwind CSS, I honed my skills in responsive design and efficient styling. Additionally, incorporating Three.js allowed me to create stunning 3D visualizations and animations, showcasing my creativity and technical abilities. This project highlighted my expertise in modern web development technologies and demonstrated my capability to create visually appealing and interactive user experiences.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "three.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/lokesh0408/My_Portfolio",
+  },
+  {
+    name: "Programming Projects",
+    description:
+      "Through the development of the LRU Cache, Shopping-Cart, Guess-the-birthdate projects using C++, I acquired strong programming skills and problem-solving abilities. These projects allowed me to demonstrate my proficiency in data structures, algorithms, and object-oriented programming concepts. I gained hands-on experience in software development, enhancing my ability to design and implement efficient and reliable applications. These projects showcased my ability to work with C++ to create practical solutions and solidified my foundation in programming and software engineering.",
+    tags: [
+      {
+        name: "datastructures",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "oops",
+        color: "green-text-gradient",
+      },
+      {
+        name: "c++",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: programming,
+    source_code_link: "https://github.com/lokesh0408?tab=repositories",
+  },
+  {
+    name: "React Crud and Twitter Clone",
+    description:
+      "Through the React Crud and Twitter Clone projects, I gained valuable experience in building complex web applications using React and CSS. These projects involved implementing features such as real-time collaboration, document editing, and tweet posting functionalities. By working on these clones, I deepened my understanding of React's component-based architecture, state management, and CSS styling techniques. These projects showcased my ability to create user-friendly and visually appealing interfaces while honing my skills in frontend development and UI/UX design.",
+    tags: [
+      {
+        name: "html5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css3",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: twitter,
+    source_code_link: "https://github.com/lokesh0408/Twitter_Clone",
   },
   {
     name: "Shopping-Cart Backend",
     description:
-      "An online shopping Real-time Website that makes it possible for customers to add products and buy them online. Users can also remove the products, review their cart and finally, simple checkout by paying online.",
+      "Used Object Oriented Programming (OOPs) and Data Structures such as map, vector etc. to build this software in C++. This project demonstrates the power of C++ in handling complex business logic and optimizing performance in the world of e-commerce. I'm proud to have developed a feature-rich backend to streamline the shopping experience for users. From adding products to managing quantities and calculating totals, this shopping cart handles it all with efficiency. It is an online shopping Real-time Website that makes it possible for customers to add products, remove the unwanted products, review their cart and finally, simple checkout by paying online or cash.",
     tags: [
       {
-        name: "DataStructures",
+        name: "datastructures",
         color: "blue-text-gradient",
       },
       {
-        name: "OOPs",
+        name: "oops",
         color: "green-text-gradient",
       },
       {
-        name: "C++",
+        name: "c++",
         color: "pink-text-gradient",
       },
     ],
-    // image: tripguide,
+    image: shopping_cart,
     source_code_link:
       "https://github.com/lokesh0408/Online-Shopping-Cart-Backend",
   },

@@ -34,7 +34,7 @@ const Hero = () => {
 
       {/* creating scroller from framer-motion */}
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <div className="absolute xs:bottom-1 bottom-32 w-full flex justify-center items-center ">
         <a href="#about">
           {/* scroll down to about */}
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
