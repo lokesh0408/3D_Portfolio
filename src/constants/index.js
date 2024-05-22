@@ -7,6 +7,10 @@ import {
   typescript,
   html,
   css,
+  java,
+  kotlin,
+  cplus,
+  github,
   reactjs,
   redux,
   tailwind,
@@ -15,7 +19,11 @@ import {
   git,
   figma,
   docker,
+  express,
+  springboot,
   meta,
+  jupiter,
+  hartron,
   starbucks,
   tesla,
   shopify,
@@ -58,16 +66,28 @@ const services = [
     icon: web,
   },
   {
-    title: "MERN Stack Developer",
+    title: "Full Stack Developer",
     icon: backend,
   },
   {
-    title: "Coder",
+    title: "Programmer",
     icon: creator,
   },
 ];
 
 const technologies = [
+  {
+    name: "C++",
+    icon: cplus,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Kotlin",
+    icon: kotlin,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -77,13 +97,17 @@ const technologies = [
     icon: css,
   },
   {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
   {
     name: "React JS",
     icon: reactjs,
@@ -93,12 +117,12 @@ const technologies = [
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "Express",
+    icon: express,
   },
   {
     name: "MongoDB",
@@ -112,70 +136,89 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
+  {
+    name: "github",
+    icon: github,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
+  {
+    name: "Spring Boot",
+    icon: springboot,
+  },
 ];
 
-// const experiences = [
-//   {
-//     title: "React.js Developer",
-//     company_name: "Starbucks",
-//     icon: starbucks,
-//     iconBg: "#383E56",
-//     date: "March 2020 - April 2021",
-//     points: [
-//       "Developing and maintaining web applications using React.js and other related technologies.",
-//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//       "Implementing responsive design and ensuring cross-browser compatibility.",
-//       "Participating in code reviews and providing constructive feedback to other developers.",
-//     ],
-//   },
-//   {
-//     title: "React Native Developer",
-//     company_name: "Tesla",
-//     icon: tesla,
-//     iconBg: "#E6DEDD",
-//     date: "Jan 2021 - Feb 2022",
-//     points: [
-//       "Developing and maintaining web applications using React.js and other related technologies.",
-//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//       "Implementing responsive design and ensuring cross-browser compatibility.",
-//       "Participating in code reviews and providing constructive feedback to other developers.",
-//     ],
-//   },
-//   {
-//     title: "Web Developer",
-//     company_name: "Shopify",
-//     icon: shopify,
-//     iconBg: "#383E56",
-//     date: "Jan 2022 - Jan 2023",
-//     points: [
-//       "Developing and maintaining web applications using React.js and other related technologies.",
-//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//       "Implementing responsive design and ensuring cross-browser compatibility.",
-//       "Participating in code reviews and providing constructive feedback to other developers.",
-//     ],
-//   },
-//   {
-//     title: "Full stack Developer",
-//     company_name: "Meta",
-//     icon: meta,
-//     iconBg: "#E6DEDD",
-//     date: "Jan 2023 - Present",
-//     points: [
-//       "Developing and maintaining web applications using React.js and other related technologies.",
-//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//       "Implementing responsive design and ensuring cross-browser compatibility.",
-//       "Participating in code reviews and providing constructive feedback to other developers.",
-//     ],
-//   },
-// ];
+const experiences = [
+  {
+    title: "Java Developer",
+    company_name: "Hartron Skill Centre",
+    icon: hartron,
+    iconBg: "#E6DEDD",
+    date: "Feb 2021 - Mar 2021",
+    points: [
+      "Completed a comprehensive training program in Java at Hartron Skill Centre. This training equipped me with a solid foundation in Java programming, covering essential concepts such as object-oriented programming, data structures, and algorithms.",
+      "Gained hands-on experience in developing and debugging Java applications, enhancing my technical skills and preparing me for real-world software development challenges.",
+    ],
+  },
+  {
+    title: "SDE Backend Developer",
+    company_name: "Jupiter Money",
+    icon: jupiter,
+    iconBg: "#E6DEDD",
+    date: "Nov 2023 - May 2024",
+    points: [
+      "Optimized Jupiter’s Account Closure flow, facilitating fund transfers to users’ beneficiary accounts. This led to a notable decrease in customer queries to the CS team regarding closed accounts, dropping from 10 % to less than 2 %, demonstrating substantial improvement.",
+      "Enhanced Jupiter’s compliance-driven Re-KYC process, mandating biennial user verification to prevent account freezing. Transitioned from bank-provided SMS initiation to the Profile Update API, offering greater control. Users complete eKYC and use generated e-KYC Reference Request Number (RRN) to call the bank’s API, ensuring a seamless Re-KYC journey.",
+      "Utilized Grafana to create multiple dashboards for monitoring key performance metrics, ensuring backend service health and reliability.",
+      "Primarily worked in Kotlin and Spring Boot along with PostgreSQL and various AWS provided services like SQS, SNS and API Gateway.",
+    ],
+  },
+  // {
+  //   title: "React Native Developer",
+  //   company_name: "Tesla",
+  //   icon: tesla,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2021 - Feb 2022",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  //   {
+  //     title: "Web Developer",
+  //     company_name: "Shopify",
+  //     icon: shopify,
+  //     iconBg: "#383E56",
+  //     date: "Jan 2022 - Jan 2023",
+  //     points: [
+  //       "Developing and maintaining web applications using React.js and other related technologies.",
+  //       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //       "Implementing responsive design and ensuring cross-browser compatibility.",
+  //       "Participating in code reviews and providing constructive feedback to other developers.",
+  //     ],
+  //   },
+  //   {
+  //     title: "Full stack Developer",
+  //     company_name: "Meta",
+  //     icon: meta,
+  //     iconBg: "#E6DEDD",
+  //     date: "Jan 2023 - Present",
+  //     points: [
+  //       "Developing and maintaining web applications using React.js and other related technologies.",
+  //       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //       "Implementing responsive design and ensuring cross-browser compatibility.",
+  //       "Participating in code reviews and providing constructive feedback to other developers.",
+  //     ],
+  //   },
+];
 
 const testimonials = [
   {
@@ -385,5 +428,4 @@ const projects = [
   },
 ];
 
-// export { services, technologies, experiences, testimonials, projects };
-export { services, technologies, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects };

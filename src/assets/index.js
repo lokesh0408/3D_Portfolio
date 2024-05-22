@@ -8,6 +8,9 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import java from "./tech/java.png";
+import cplus from "./tech/cplus.png";
+import kotlin from "./tech/kotlin.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -20,12 +23,16 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+import express from "./tech/express.png";
+import springboot from "./tech/springboot.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import jupiter from "./company/jupiter.png";
+import hartron from "./company/hartron.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -54,6 +61,9 @@ export {
   docker,
   figma,
   git,
+  java,
+  cplus,
+  kotlin,
   html,
   javascript,
   mongodb,
@@ -63,10 +73,14 @@ export {
   tailwind,
   typescript,
   threejs,
+  express,
+  springboot,
   meta,
   shopify,
   starbucks,
   tesla,
+  jupiter,
+  hartron,
   carrent,
   jobit,
   tripguide,

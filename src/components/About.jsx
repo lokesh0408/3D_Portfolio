@@ -45,13 +45,13 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         Enthusiastic BE Computer Science student with a passion for contributing
-        to organizational success, seeking to develop new skills, gain
-        real-world experience, and demonstrate strong communication, critical
-        thinking, and organizational abilities .| I'm a software developer
-        having a good experience in JavaScript and frameworks like React,
-        Node.js. I'm a quick learner and always try to create efficient,
-        scalable, and user-friendly solutions that solve real-world problems.So,
-        let's work together to bring your ideas to life!
+        to organizational success. Seeking to develop new skills, gain
+        real-world experience, and leverage strong communication, critical
+        thinking, and organizational abilities. Experienced in software
+        development with proficiency in JavaScript and frameworks such as React
+        and Node.js. A quick learner dedicated to creating efficient, scalable,
+        and user-friendly solutions that address real-world problems. Let's
+        collaborate to bring innovative ideas to life!
       </motion.p>
 
       {/* to display the cards */}

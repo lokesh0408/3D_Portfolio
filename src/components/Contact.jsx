@@ -53,7 +53,7 @@ const Contact = () => {
         .then(
           () => {
             setLoading(false);
-            toast.success("Email send Successfully!");
+            toast.success("Email sent Successfully!");
             toast.dark(
               "Thank you. I will get back to you as soon as possible."
             );
@@ -68,7 +68,7 @@ const Contact = () => {
             setLoading(false);
             console.error(error);
 
-            toast.error("Ahh, something went wrong. Please try again.");
+            toast.error("Ahh! something went wrong. Please try again.");
           }
         );
     }
