@@ -1,6 +1,6 @@
 # 3D_Portfolio
 
-#### This web page is hosted [here!](https://lokesh3dportfolio.netlify.app/)
+#### This web page is hosted [here!](https://3dlokeshportfolio.netlify.app/)
 
 # Introduction
 
